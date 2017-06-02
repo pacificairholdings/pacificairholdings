@@ -144,7 +144,7 @@ time, mark, audio, video {
 
 }
 h1, h2, h3, h4, h5, h6, p {
-	font-family: customFont2 !important
+	font-family: customFont2 !important;
 }
 
 
@@ -233,6 +233,7 @@ h1, h2, h3, h4, h5, h6 {
 	box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.3);
 	padding: 20px 0;
 	position: relative;
+	background-color:black;
 }
 
 .OK{
@@ -352,6 +353,10 @@ margin-right: 20px;
 position: static;
 }
 
+.about-us{
+	color:white;
+	font-size:25px;
+}
 
 /* LOGO! */
 
@@ -1657,24 +1662,6 @@ p {
 	font-weight: 400;
 }
 
-.toggle h4:before {
-	content: "\f067";
-	font-weight: bold;
-	font-size: 14px;
-	color: #fff;
-	width: 30px;
-	height: 23px;
-	padding: 7px 0 0 0;
-	line-height: 1.1em;
-	display: block;
-	text-align: center;
-	float: left;
-	margin: 0 15px 0 0;
-	-webkit-border-radius: 100%;
-	-moz-border-radius: 100%;
-	-o-border-radius: 100%;
-	border-radius: 100%;
-}
 
 .toggle .active h4:before {
 	content: "\f068";
@@ -1868,8 +1855,8 @@ p {
 	text-align: center;
 }
 
-.home-icon-wrapper h4,
-.home-icon-wrapper-2 h4 {
+.home-icon-wrapper h2, h4,
+.home-icon-wrapper-2 h2, h4 {
 	font-size: 20px;
 	text-align: center;
 	margin: 0 0 25px 0;
@@ -3777,34 +3764,34 @@ p.footer-message {
 	position: relative;
 	line-height: 150%;
 	margin: 0 0 6px 0;
-	font-size: 15px;
+
 	word-wrap: break-word;
 }
 
 .contact-widget .cw-address {
-	font-size: 15px;
+
 	max-width: 300px;
 }
 
 .contact-widget .cw-phone {
-	font-size: 18px;
+
 	line-height: 100%;
 }
 
 .contact-widget .cw-phone span {
 	display: block;
-	font-size: 15px;
+
 	color: #777b83;
 }
 
 .contact-widget .cw-cell {
-	font-size: 18px;
+
 	line-height: 100%;
 }
 
 .contact-widget .cw-cell span {
 	display: block;
-	font-size: 15px;
+
 	color: #777b83;
 }
 
@@ -3886,4 +3873,9 @@ p.footer-message {
 
 .widget .news-wrapper p {
 	font-size: 15px;
+}
+
+
+.cw-address, .cw-phone, .cw-cell{
+	font-size:10px;
 }
