@@ -411,7 +411,7 @@ position: static;
 	padding: 19px 44px 19px 0;
 	font-size: 17px;
 	display: block;
-	color: #424242;
+	/* color: #424242; */
 		font-family: customFont2 !important;
 }
 
@@ -3878,4 +3878,23 @@ p.footer-message {
 
 .cw-address, .cw-phone, .cw-cell{
 	font-size:10px;
+}
+
+a, a:link, a:visited, a:focus, a:hover, a:active{
+  color:white;
+
+
+}
+
+.blackFont{
+	color:black !important;
+}
+
+.h3Special{
+font-family: customFont2 !important;
+font-size: 24px !important;
+}
+
+.pSpecial{
+	style="font-family: customFont3 !important;
 }
